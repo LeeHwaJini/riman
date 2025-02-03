@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.riman.kr.twa",
+      "sha256_cert_fingerprints":
+        ["95:86:76:B9:66:DE:0F:04:90:52:1B:8D:E2:A5:E1:3A:D4:2B:21:58:47:70:E9:1F:9D:2C:F0:CD:3A:C5:85:74"]
+    }
+  }
+]
