@@ -1,0 +1,170 @@
+.login-title-area {
+  padding: 64px 0 48px 0;
+
+  h3 {
+    color: $primary-navy-09;
+    font-weight: 600;
+  }
+}
+
+.login-form-area {
+  margin-bottom: 8px;
+
+  .field {
+    margin-top: 0 !important;
+
+    & + .field {
+      margin-top: 8px !important;
+    }
+  }
+}
+
+.find-move-btn-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 16px 0 80px 0;
+
+  li {
+    color: $gray-05;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
+
+.login-method-area {
+  .text {
+    position: relative;
+    display: block;
+    margin-bottom: 16px;
+    color: $gray-05;
+    font-size: 12px;
+    text-align: center;
+
+    &::after,
+    &::before {
+      content: '';
+      position: absolute;
+      top: 6px;
+      width: calc(50% - 80px);
+      height: 1px;
+      background: $gray-02;
+    }
+
+    &::after {
+      left: 0;
+    }
+
+    &::before {
+      right: 0;
+    }
+
+  }
+
+  .login-sns-btn-area {
+    gap: 16px;
+    margin-bottom: 32px;
+
+
+
+    .kakao-btn-area {
+      background: #FEE500;
+
+      .ico.kakao {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .apple-btn-area {
+      background: black;
+
+      span {
+        color: rgba(0, 0, 0, 0.85);
+      }
+    }
+  }
+}
+
+.login-bottom-accout-text {
+  display: block;
+  margin: 32px 0 24px 0;
+  color: $primary-navy-09;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.auth-num-text {
+  display: block;
+  margin-top: 4px;
+  line-height: 130%;
+  color: $primary-navy-09;
+  font-size: 12px;
+
+  &.valid {
+    color: $success-04;
+  }
+
+  &.disvalid {
+    color: $error-04;
+  }
+}
+
+.auth-num-title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+  color: $gray-04;
+  font-size: 12px;
+}
+
+.mem-num-move-btn-area {
+  margin-top: 4px;
+  padding-bottom: 0 !important;
+  line-height: 14px;
+  text-align: left !important;
+
+  a {
+    margin-left: 2px !important;
+    line-height: 130%;
+    font-size: 12px;
+    color: $primary-navy-09;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+  }
+}
+
+.count-down-text {
+  display: block;
+  color: $error-04;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+
+  & + .q-icon {
+    display: none;
+  }
+}
+
+.pwd-input {
+  .q-field__append .q-icon {
+    color: $gray-02 !important;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .mo-pt48-pb8 {
+    padding: 48px 0 8px !important;
+  }
+
+  .mo-pt48 {
+   padding-top: 48px;
+  }
+}

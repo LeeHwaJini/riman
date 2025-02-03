@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*
+    ** color
+*/
+
+/* black */
+$white : #FFFFFF;
+$gray-black :#212221;
+$gray-gray-01 :#212121;
+$gray-gray-02 :#7A7A7A;
+$gray-gray-03 :#A6A7A6;
+$gray-gray-04 :#D3D3D3;
+$gray-gray-05 :#F2F4F8;
+$gray-gray-06 :#F4F4F4;
+$gray-gray-07 :#555;
+$gray-gray-09 : #1D1D1D;
+
+$gray-gray-0x :#D9D9D9;
+
+/* navy */
+$deep-navy :#123250;
+$primary-navy-002 :#9DC0E4;
+$primary-navy-005 :#EFF8FF;
+$primary-navy-006 :#F3F4F6;
+$primary-navy-01 :#B9DBFA;
+$primary-navy-02 :#718496;
+$primary-navy-03 :#7EA6CD;
+$primary-navy-04 :#6692BB;
+$primary-navy-05 :#4C7FAA;
+$primary-navy-06 :#3E7098;
+$primary-navy-07 :#2D5C80;
+$primary-navy-08 : #1E496A;
+$primary-navy-09 :#063451;
+
+
+
+/* gray */
+$gray-01: #DDE1E6;
+$gray-02: #C1C7CD;
+$gray-03: #A2A9B0;
+$gray-04: #878D96;
+$gray-05 : #697077;
+$gray-06 : #4D5358;
+$gray-07 : #343A3F;
+$gray-09 : #121619;
+
+
+/* add color */
+$mint : #60C7D2;
+$wran : #F15F5F;
+$button_default : #A6A7A6;
+$button_login :#B59E88;
+$item-blue : #3FA3FF;
+$item-green : #31BD36;
+$item-red : #FE4A4A;
+$item-orange : #FF7A00;
+$item-gray : #7A7A7A;
+$item-lightGray : #A6A7A6;
+$item-lightBlue : #6181aa;
+
+/* Error*/
+$error-005: #FFF5F5;
+$error-03: #FF8389;
+$error-04: #FA4D56;
+
+/* Success */
+$success-005 : #F0FFFA;
+$success-03 : #57DBCC;
+$success-04 : #2EB8B3;
+
+/* Beige */
+$secondary-beige-0 : #FCFAF8;
+$secondary-beige-005: #F3EFEB;
+$secondary-beige-02: #D7C4B1;
+$secondary-beige-03: #B7A99C;
+/* Border */
+$naver-white-border: #E6E6EA;
+
+/* Dim */
+$dim-b-20 : rgba(33, 33, 33, 0.20);
+$dim-b-40 :rgba(33, 33, 33, 0.40);
+$dim-b-60 :rgba(33, 33, 33, 0.60);
+$dim-b-80 :rgba(33, 33, 33, 0.80);
+$dim-w-20 :rgba(255, 255, 255, 0.20);
+$dim-w-40 :rgba(255, 255, 255, 0.40);
+$dim-w-60 :rgba(255, 255, 255, 0.60);
+
+/* Font */
+$fontFamily: 'Pretendard', 'Montserrat';
+
+$animate-delay : 0.8s;
+
+/* Max Width */
+$maxWidth-pc : 1680px;
+$maxWidth-mo : 544px;
+
+/* Etc */
+$toggle-bg : linear-gradient(86deg, #2EF1CE 46.27%, #00C2FF 92.58%);
+$shadow : 0px 0px 8px 0px rgba(18, 22, 25, 0.10);
